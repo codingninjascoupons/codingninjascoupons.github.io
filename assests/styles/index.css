@@ -1,0 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --theme-font-color:#FA8700;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+}
