@@ -129,12 +129,15 @@
         padding: 5px;
     }
 }
-@media screen and (max-width:300px){
+@media screen and (max-width:315px){
     
     .landing-display .display-text .larger-text{
         font-size: 30px;
     }
     .landing-display .display-text .larger-text span{
         font-size: 40px;
+    }
+    .landing-display .display-text .btns{
+        font-size: 0.6em;
     }
 }

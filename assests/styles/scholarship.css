@@ -1,0 +1,119 @@
+#scholarship{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    gap:5vh;
+    padding: 60px 0 40px 0;
+    font-size: 17px;
+}
+
+#scholarship .cnsat-img{
+    width: 20%;
+}
+#scholarship .cnsat-img img{
+    width: 100%;
+}
+#scholarship .tag-line span{
+    color: var(--theme-font-color);
+    font-weight: 700;
+}
+#scholarship .info{
+    display: flex;
+    height: fit-content;
+}
+#scholarship .info .brackets,#scholarship .info .rewards{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    gap:20px;
+}
+#scholarship .info .brackets p{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+#scholarship .info .brackets .bracket-imgs{
+    width: 60%;
+}
+#scholarship .info .brackets .bracket-imgs img{
+    width: 100%;
+}
+#scholarship .info .rewards{
+    border-left:2px rgb(66, 65, 65) dashed;
+}
+#scholarship .info .rewards p:nth-child(1){
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+#scholarship .info .rewards ul{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#scholarship .info .rewards ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#scholarship .info .rewards ul li [class ^= "fa"]{
+    font-size: 1.5rem;
+    color: var(--theme-font-color);
+}
+#scholarship .info .rewards .note{
+    font-size: 0.8em;
+}
+
+#scholarship .more-details-btn{
+    background-color: var(--theme-font-color);
+    color: white;
+    padding: 0.8em 1em;
+    border-radius: 7px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+
+}
+@media screen and (max-width:1024px) {
+    #scholarship{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:800px) {
+    #scholarship{
+        font-size: 12px;
+    }
+}
+
+/* Mobile screens */
+@media screen and (max-width:600px) {
+    #scholarship{
+        font-size: 13px;
+        padding: 60px 20px 40px 20px;
+    }
+    #scholarship .cnsat-img{
+        width: 40%;
+    }
+    #scholarship .info{
+        flex-direction: column;
+        align-items: center;
+    }
+    #scholarship .info .brackets,#scholarship .info .rewards{
+        width: 80%;
+    padding: 20px 0;
+
+    }
+    #scholarship .info .brackets .bracket-imgs{
+        width: 100%;
+    }
+    #scholarship .info .rewards{
+        border: none;
+    }
+    #scholarship .info .rewards ul{
+        gap: 20px;
+    }
+}
