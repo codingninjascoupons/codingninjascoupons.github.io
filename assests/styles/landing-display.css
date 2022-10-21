@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;900&display=swap');
+
+.landing-display{
+    height: 90vh;
+    background-image: url(../images/bg-imgs/blurry-gradient-haikei.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.landing-display .display-text{
+    width: 55%;
+    height: 100%;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.landing-display .display-text .larger-text{
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    font-weight: 900;
+    font-size: 55px;
+}
+.landing-display .display-text .larger-text span{
+    font-size: 70px;
+}
+.landing-display .display-text .smaller-text{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 35px;
+    text-shadow: 0px 0px 4px rgba(0,0,0,0.25);
+}
+.landing-display .display-text .smaller-text p:nth-child(1){
+    font-size: 15px;
+}
+.landing-display .display-text .smaller-text p span{
+    font-size: 15px;
+    font-weight: 900;
+}
+.landing-display .display-img{
+    width: 45%;
+}
+.landing-display .display-img img{
+    width: 100%;
+}
+.landing-display .display-text .btns{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:15%;
+    font-size: 1.1em;
+    font-weight: 700;
+}
+.landing-display .display-text .btns .get-now-btn{
+    background-color: #FA8700;
+    padding: 10px 25px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    cursor: pointer;
+}
+.landing-display .display-text .btns .copy-code-btn{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    border: 1.5px solid ;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.landing-display .display-text .btns .copy-code-btn .fa-copy{
+    font-size: 1.2em;
+    cursor:pointer;
+}
+
+@media screen and (max-width: 1024px) {
+    .landing-display .display-text{
+        padding-left: 45px;
+    }
+    
+}
+@media screen and (max-width: 800px){
+    .landing-display{
+        height: max-content;
+        padding: 10vh 0;
+    }
+    .landing-display .display-text{
+        padding-left: 30px;
+        gap:5vh;
+    }
+    .landing-display .display-text .larger-text{
+        font-size: 35px;
+    }
+    .landing-display .display-text .larger-text span{
+        font-size: 50px;
+    }
+    .landing-display .display-text .smaller-text{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .landing-display .display-text .smaller-text p:nth-child(1){
+        font-size: 12px;
+    }
+    .landing-display .display-text .smaller-text p span{
+        font-size: 12px;
+    }
+    .landing-display .display-text .btns{
+        font-size: 0.8em;
+    }
+}
+/* For mobile screens */
+@media screen and (max-width:600px){
+    .landing-display .display-text{
+        width: 80%;
+    }
+    .landing-display .display-img{
+        display: none;
+        width: 0%;
+    }
+    .landing-display .display-text .btns{
+        justify-content: space-around;
+        gap:0;
+    }
+    .landing-display .display-text .btns .get-now-btn{
+        padding: 10px ;
+    }
+    .landing-display .display-text .btns .copy-code-btn{
+        gap:10px;
+        padding: 5px;
+    }
+}
+@media screen and (max-width:300px){
+    
+    .landing-display .display-text .larger-text{
+        font-size: 30px;
+    }
+    .landing-display .display-text .larger-text span{
+        font-size: 40px;
+    }
+}
