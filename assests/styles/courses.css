@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap');
+.courses{
+    font-family: 'Inria Sans', sans-serif;
+    background-color: #FBFBFB;
+    padding: 60px 0 3em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.courses h1{
+    text-align: center;
+    font-family: 'Inria Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.courses > p{
+    text-align: center;
+    font-size: 0.9em;
+}
+.courses .course-container{
+    background-color: #eff1f4;
+    margin:2em;
+    border-radius: 7px;
+    padding: 1.5em 2em;
+    display: flex;
+    flex-direction: column;
+    gap:1em;
+}
+.courses .course-container .course-title{
+    color:#F10000;
+}
+.courses .course-container .course-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 3em;
+    margin-top: 20px;
+}
+.courses .course-container .course-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 115px;
+    height: 115px;
+    background-color: #fff;
+    border-bottom: 4px solid var(--theme-font-color);
+    border-radius: 10px;
+    padding: 10px 3px;
+}
+.courses .course-container .course-card .course-icon img{
+    width: 50px;
+    height: 50px;
+}
+.courses .course-container .course-card .course-name{
+    font-size: 12px;
+    text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+
+    
+}
+@media screen and (max-width:800px) {
+    .courses{
+        font-size: 14px;
+    }
+    .courses .course-container .course-cards{
+        justify-content: center;
+    }
+}
+
+/* Mobile screens */
+@media screen and (max-width:600px){
+    .courses{
+        font-size: 13px;
+    padding: 60px 5px 3em 5px;
+
+    }
+    .courses .course-container{
+        padding: 1.5em 1em;
+    }
+    .courses .course-container .course-card{
+        width: 90px;
+        height: 90px;
+        justify-content: space-evenly;
+        
+    }
+    .courses .course-container .course-card .course-icon img{
+        width: 40px;
+        height: 40px;
+    }
+    .courses .course-container .course-card .course-name{
+        font-size: 10px;
+    }
+    
+}

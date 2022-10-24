@@ -1,0 +1,146 @@
+[
+    {
+      "course-title": "Foundation Algorithmic & Adcanced Courses",
+      "course-desc": "Foundation courses are designed such that no prerequisites are required. Data Structures(DS) and Algorithms(algo.) parts build on the basics to give you a solid programming foundation. Competitive is where you start to push the boundaries!",
+      "courses": [
+        {
+          "course-icon": "./assests/icons/cpp-ds-logo.png",
+          "course-name": "C++ & Data Structures",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/cpp-live-course-logo.svg",
+          "course-name": "C++ & Data Structures Live",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/java-ds-logo.png",
+          "course-name": "Java & Data Structures",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/interview-logo.png",
+          "course-name": "Interview Preparations",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/cp-logo.png",
+          "course-name": "Competitive Programming",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/python-logo.png",
+          "course-name": "Python & Data Structures",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/aptitude-logo.png",
+          "course-name": "Aptitude Preparation",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/os-new-logo.svg",
+          "course-name": "Operating systems",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/system-design.svg",
+          "course-name": "System Design",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/dbms-logo.svg",
+          "course-name": "Database Management",
+          "course-link": "#"
+        }
+      ]
+    },
+    {
+      "course-title": "Data & Development",
+      "course-desc": "Data courses dwell in the state of the art algorithms and require good knowledge of programming fundamentals. Web development courses use modern JavaScript to build powerful and fast applications from the ground up. No prior development experience needed.",
+      "courses": [
+        {
+          "course-icon": "./assests/icons/ml-logo.png",
+          "course-name": "Machine Learnig",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/react-logo.svg",
+          "course-name": "Front End(React)",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/mern-logo.svg",
+          "course-name": "Web Dev(Full Stack)",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/data-science-logo.png",
+          "course-name": "Data Science",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/Data-Analytics-Course-logo.png",
+          "course-name": "Data Analytics",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/android-logo.png",
+          "course-name": "Android (Kotlin)",
+          "course-link": "#"
+        }
+      ]
+    },
+    {
+      "course-title": "Goal Based Courses",
+      "course-desc": "Courses Ideal for students preparing for placements/Internships and working professionals with 2+ years of experience. This courses prepares student for placement interviews.",
+      "courses": [
+        {
+          "course-icon": "./assests/icons/service-based-companies-course-logo.png",
+          "course-name": "Service Based Interview Preparations",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/switch-from-service-to-product-course-logo.svg",
+          "course-name": "Switch from Service to Product",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/product-based-companies-course-logo.svg",
+          "course-name": "Product Companies Interview Preparations",
+          "course-link": "#"
+        }
+      ]
+    },
+    {
+      "course-title": "Career Track",
+      "course-desc": "These are courses that take you from zero to hero. Each track is designed specifically to cater to a particular goal you can choose and covers everything you need to learn and assumes no prior knowledge.",
+      "courses": [
+        {
+          "course-icon": "./assests/icons/career-track-cp-logo.png",
+          "course-name": "Competitive Programmer",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/career-track-android-logo.png",
+          "course-name": "Android Programmer",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/career-track-web-logo.png",
+          "course-name": "Web Development",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/career-track-data-science-logo.png",
+          "course-name": "Data Scientist",
+          "course-link": "#"
+        },
+        {
+          "course-icon": "./assests/icons/career-track-ml-logo.png",
+          "course-name": "Machine Learning",
+          "course-link": "#"
+        }
+      ]
+    }
+  ]
