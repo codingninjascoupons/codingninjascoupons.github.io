@@ -1,0 +1,138 @@
+.premium{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+    padding:3em;
+    background-color: #edf0f0;
+}
+.premium h1{
+    font-family: 'Inria Sans', sans-serif;
+    position: relative;
+    
+}
+.premium h1 img{
+    position: absolute;
+    width: 40px;
+    top: -25px;
+    left:-25px;
+    transform: rotate(-45deg);
+}
+
+.premium h1 span:nth-child(2){
+    background-color: #F8C06D;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 7px;
+}
+.premium h1 span:nth-child(3){
+    color: #F8C06D;
+}
+.premium >p{
+    font-size: 0.9em;
+}
+.premium .premium-courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 3em;
+    margin-top: 20px;
+}
+.premium .premium-courses .course-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 115px;
+    height: 115px;
+    background-color: #fff;
+    border-bottom: 4px solid #FFD32A;
+    border-radius: 10px;
+    padding: 10px 3px;
+}
+.premium .premium-courses .course-card .course-icon img{
+    width: 50px;
+    height: 50px;
+}
+.premium .premium-courses .course-card .course-name{
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.premium h2{
+    color: #f7be23;
+    margin-top: 1em;
+}
+
+.premium .offerings{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+    gap:3em;
+}
+.premium .offerings .offering-card{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    width: 170px;
+    height: 200px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 7px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+}
+.premium .offerings .offering-card .icon img{
+    width: 40px;
+    height: 40px;
+}
+.premium .offerings .offering-card .title{
+    font-weight: 700;
+}
+.premium .offerings .offering-card .desc{
+    font-size: 0.8em;
+}
+
+@media screen and (max-width:1024px) {
+
+    
+}
+@media screen and (max-width:800px) {
+    .premium{
+        font-size: 11px;
+    }
+    .premium .premium-courses {
+        justify-content: center;
+    }
+    .premium h2{
+        font-size: 20px;
+    }
+    .premium .offerings .offering-card{
+        font-size: 15px;
+    }
+}
+
+/* Mobile screens */
+@media screen and (max-width:600px){
+    .premium{
+        font-size: 12px;
+    }
+    .premium .premium-courses .course-card{
+        width: 90px;
+        height: 90px;
+        
+    }
+    .premium .premium-courses .course-card .course-icon img{
+        width: 40px;
+        height: 40px;
+    }
+    .premium .premium-courses .course-card .course-name{
+        font-size: 10px;
+    }
+    .premium h2{
+        font-size: 16px;
+    }
+    
+}

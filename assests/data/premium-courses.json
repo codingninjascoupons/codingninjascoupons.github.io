@@ -1,0 +1,32 @@
+[
+    {
+        "course-icon": "./assests/icons/android-logo.png",
+        "course-name": "Android App Development",
+        "course-link": "#"
+      },
+      {
+        "course-icon": "./assests/icons/ml-logo.png",
+        "course-name": "Machine Learnig",
+        "course-link": "#"
+      },
+      {
+        "course-icon": "./assests/icons/data-science-logo.png",
+        "course-name": "Data Science",
+        "course-link": "#"
+      },
+      {
+        "course-icon": "./assests/icons/web-logo.png",
+        "course-name": "Full Stack Web Development",
+        "course-link": "#"
+      },
+      {
+        "course-icon": "./assests/icons/aptitude-logo.png",
+        "course-name": "Data Structures & Algorithms",
+        "course-link": "#"
+      },
+      {
+        "course-icon": "./assests/icons/cp-logo.png",
+        "course-name": "Competitive Programming",
+        "course-link": "#"
+      }
+  ]
