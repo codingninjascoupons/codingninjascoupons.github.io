@@ -5,6 +5,7 @@ const courses = document.querySelector(".courses");
 const premium = document.querySelector(".premium-courses");
 const offerings = document.querySelector(".offerings");
 const features = document.querySelector(".features-cards");
+const benefits = document.querySelector(".benefits-cards");
 // Event Listeners
 
 hamBtn.onclick = function () {
@@ -102,6 +103,7 @@ window.onload = function () {
         offerings.appendChild(offCard);
       });
     });
+
   fetch("./assests/data/features.json")
     .then((response) => {
       return response.json();
@@ -122,6 +124,29 @@ window.onload = function () {
       </div>
         `;
         features.appendChild(ft);
+      });
+    });
+
+  fetch("./assests/data/benefits.json")
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      data.forEach((el) => {
+        const benefitCard = document.createElement("div");
+        benefitCard.classList.add("benefit-card");
+        benefitCard.innerHTML = `<p class="num">${el["num"]}</p>
+        <div class="icon">
+          <img
+            src=${el["icon"]}
+            alt="Benefits Illustrations"
+          />
+        </div>
+        <h3 class="title">${el["title"]}</h3>
+        <p class="desc">
+          ${el["desc"]}
+        </p>`;
+        benefits.appendChild(benefitCard);
       });
     });
 };

@@ -1,0 +1,32 @@
+[
+    {
+        "num":1,
+        "icon":"./assests/icons/benefits1.svg",
+        "title":"Gift Package",
+        "desc":"This ought to be a secret, but Coding Ninjas offers you T-Shirts, Notebook, Wildcraft Bagpack, Laptop stickers, and other little things that would aid your learning here with home delivery."
+    },
+    {
+        "num":2,
+        "icon":"./assests/icons/benefits2.svg",
+        "title":"Teaching Assistant Internship (TAship)",
+        "desc":"After completing 80% of the course, you can apply for TAship. Duration of TAship will be 4 months and has stipend upto ₹30,000."
+    },
+    {
+        "num":3,
+        "icon":"./assests/icons/benefits3.svg",
+        "title":"More Discounts On Courses",
+        "desc":"As a student who already applied this coupon and passed through a course, you're entitled to a 10% Discount on your next course."
+    },
+    {
+        "num":4,
+        "icon":"./assests/icons/benefits4.svg",
+        "title":"Premium Hirist Account",
+        "desc":"Get 6 months Premium account on Hirist. Showcase your skills on Hirist, And then Apply for Internships and Jobs."
+    },
+    {
+        "num":5,
+        "icon":"./assests/icons/benefits5.svg",
+        "title":"Become Campus Ninja's",
+        "desc":"Organize hackathons, Assist Coding Ninjas Team to organize Talks/Sessions , Introduce Coding Ninjas to your college and get exciting prizes."
+    }
+]

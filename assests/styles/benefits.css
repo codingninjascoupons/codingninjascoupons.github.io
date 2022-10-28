@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
+.benefits{
+    font-family: "Inter",sans-serif;
+    text-align: center;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap:1.5em;
+    font-size: 16px;
+    position: relative;
+    overflow: hidden;
+}
+.benefits [id^="triangle-"]{
+    position:absolute;
+    width: 0px;
+    height: 0px;
+}
+.benefits #triangle-1{
+    border-top: 50px solid transparent;
+    border-right: 100px solid #FBAE3C;
+    border-bottom: 50px solid transparent;
+    transform: scale(2.3) rotate(15deg);
+    right: -10px;
+}
+.benefits #triangle-2{
+    border-top: 50px solid transparent;
+    border-left: 100px solid #FBAE3C;
+    border-bottom: 50px solid transparent;
+    bottom:30px;
+    transform: scale(3) rotate(10deg);
+}
+.benefits h2{
+    font-family: 'Jaldi', sans-serif;
+    font-size: 1.7em;
+    color: #6E7382;
+}
+.benefits > p{
+    font-family: 'Jaldi', sans-serif;
+    color: #757887;
+}
+.benefits .benefits-cards{
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:5em;
+}
+.benefits .benefits-cards .benefit-card{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    text-align: center;
+    gap:1em;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.benefits .benefits-cards .benefit-card .num{
+    font-family: 'Inika', serif;
+    font-size: 170px;
+    color: rgba(217, 217, 217, 0.79);
+    position: absolute;
+    top:-155px;
+    z-index: -10;
+}
+.benefits .benefits-cards .benefit-card .desc{
+    font-size: 0.8em;
+}
+
+
+/* Media Queries */
+@media screen and (max-width:1024px) {
+    .benefits #triangle-2{
+        left:-70px;
+        transform: scale(3) rotate(10deg);
+
+    }
+    .benefits #triangle-1{
+        transform: scale(2.3) rotate(15deg);
+
+        right: -60px;
+    }
+}
+@media screen and (max-width:800px) {
+    .benefits{
+        font-size: 13px;
+    }
+    .benefits .benefits-cards .benefit-card .num{
+        font-size: 140px;
+        top:-130px;
+    }
+}
+
+/* Mobile screens */
+@media screen and (max-width:600px){
+    
+    .benefits .benefits-cards .benefit-card{
+        width: 60%;
+    }
+    .benefits #triangle-2{
+        left:-70px;
+        transform: scale(3) rotate(25deg);
+    }
+    .benefits #triangle-1{
+        transform: scale(2) rotate(45deg);
+        right: -60px;
+    }
+}
