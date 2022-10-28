@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+.features{
+    background-color: #F7F8FC;
+    text-align: center;
+    padding-top: 60px;
+    font-family: 'Inter', sans-serif;
+    background-image: url('../images/bg-imgs/features-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.features h1{
+    font-family: 'Jaldi', sans-serif;
+    color: #6E7382;
+}
+.features > p{
+    color: #757887;
+    font-family: 'Jaldi', sans-serif;
+}
+.features .features-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3em;
+    padding: 20px;
+    padding-top: 50px;
+    
+}
+.features .features-cards .feature-card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 230px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    padding: 25px 10px;
+    border-radius: 10px;
+    gap:0.7em;
+    /* margin: 10px; */
+}
+.features .features-cards .feature-card .icon img{
+    height: 70px;
+}
+.features .features-cards .feature-card .title{
+    font-size: 1.1em;
+    font-weight: 600;
+
+}
+.features .features-cards .feature-card .desc{
+    font-size: 0.7em;
+}

@@ -4,6 +4,7 @@ const navItems = document.querySelectorAll(".nav-link");
 const courses = document.querySelector(".courses");
 const premium = document.querySelector(".premium-courses");
 const offerings = document.querySelector(".offerings");
+const features = document.querySelector(".features-cards");
 // Event Listeners
 
 hamBtn.onclick = function () {
@@ -99,6 +100,28 @@ window.onload = function () {
           </div>
           `;
         offerings.appendChild(offCard);
+      });
+    });
+  fetch("./assests/data/features.json")
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      data.forEach((feature) => {
+        const ft = document.createElement("div");
+        ft.classList.add("feature-card");
+        ft.innerHTML = `<div class="icon">
+        <img
+          src=${feature["icon"]}
+          alt="features icons"
+        />
+      </div>
+      <div class="title">${feature["title"]}</div>
+      <div class="desc">
+       ${feature["desc"]}
+      </div>
+        `;
+        features.appendChild(ft);
       });
     });
 };

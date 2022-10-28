@@ -1,0 +1,62 @@
+[
+    {
+      "icon": "./assests/icons/feautes-small-1.svg",
+      "title": "Free Trials",
+      "desc": "All Courses are provided with free trials of few topics, you can access free contents of all courses and check its way of teaching."
+    },
+    {
+      "icon": "./assests/icons/feautes-small-2.svg",
+      "title": "Doubt Support",
+      "desc": "You can ask your doubts to Teaching Assistance by simply raising your doubt, All TA's are very friendly and helpful."
+    },
+    {
+      "icon": "./assests/icons/feautes-small-3.svg",
+      "title": "Refund Policy",
+      "desc": "You can simply contact the authorities and they will give you a full refund within 7 days.In case you decide to cancel Coding Ninjas course."
+    },
+    {
+      "icon": "./assests/icons/feautes-small-4.svg",
+      "title": "Placements",
+      "desc": "Coding Ninjas Provides opportunities for jobs and internships for those who have completed the course from them."
+    },
+    {
+      "icon": "./assests/icons/feautes-small-5.svg",
+      "title": "Course Pause",
+      "desc": "Due to its flexibility, you can choose to put your learning to a halt -- probably due to external activities -- and return at your convenience."
+    },
+    {
+      "icon": "./assests/icons/feautes-small-6.svg",
+      "title": "Certificate",
+      "desc": "Coding Ninjas also provides Certificates of Completion after 80% and Certification of Excellence after 90% course."
+    },
+    {
+      "icon": "./assests/icons/feautes-small-7.svg",
+      "title": "Excellent Instructors",
+      "desc": "Each course is designed starting from most basic to more advance level. So, they students of all level can get maximum benefit."
+    },
+    {
+      "icon": "./assests/icons/feautes-small-8.svg",
+      "title": "Course Curriculum",
+      "desc": "Each course is designed starting from most basic to more advance level. So, they students of all level can get maximum benefit."
+    },
+    {
+      "icon": "./assests/icons/feautes-small-9.svg",
+      "title": "EMI Payment",
+      "desc": "In case you can't pay full amount at the starting of course, you can pay via emi option available in the payment page."
+    },
+    {
+      "icon": "./assests/icons/feautes-small-10.svg",
+      "title": "Codezen",
+      "desc": "Codezen is the Coding Ninjas own coding platform where you can find all sorts of problems and complete with peers."
+    },
+    {
+      "icon": "./assests/icons/feautes-small-11.svg",
+      "title": "Lots Of Practice",
+      "desc": "In the course after each lecture, practice problems of all level are given with hint videos so that practical side of it is also known."
+    },
+    {
+      "icon": "./assests/icons/feautes-small-12.svg",
+      "title": "Practice Tests",
+      "desc": "Practice Tests are conducted after few topics to check your level. Sometimes monthly webniars are also conducted."
+    }
+  ]
