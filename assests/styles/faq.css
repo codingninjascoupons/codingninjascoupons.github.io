@@ -39,7 +39,7 @@
 .faq .questions .answer{
     overflow: hidden;
     height:0px;
-    transition: all 2s linear;
+    transition: all 0.7s linear;
     padding: 5px;
 
 }
@@ -54,7 +54,7 @@
 }
 .faq .questions .a-open{
     height: fit-content;
-    transition: all 2s linear;
+    transition: all 0.7s linear;
 }
 .faq .questions .a-open .container{
     transform: translateX(0%);
