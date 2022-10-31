@@ -6,6 +6,7 @@ const premium = document.querySelector(".premium-courses");
 const offerings = document.querySelector(".offerings");
 const features = document.querySelector(".features-cards");
 const benefits = document.querySelector(".benefits-cards");
+const questions = document.querySelectorAll(".question");
 // Event Listeners
 
 hamBtn.onclick = function () {
@@ -19,12 +20,33 @@ navItems.forEach((item) => {
   };
 });
 
+questions.forEach((question) => {
+  question.addEventListener(
+    "click",
+    (e) => {
+      e.currentTarget.classList.toggle("q-open");
+      e.currentTarget.nextElementSibling.classList.toggle("a-open");
+      toggleOpen(e.currentTarget);
+    },
+    true
+  );
+});
+
 //  Handy Functions
 
 function toggleUnderline(item) {
   navItems.forEach((el) => {
     if (el !== item) {
       el.parentElement.classList.remove("active");
+    }
+  });
+}
+
+function toggleOpen(item) {
+  questions.forEach((el) => {
+    if (item !== el) {
+      el.classList.remove("q-open");
+      el.nextElementSibling.classList.remove("a-open");
     }
   });
 }
