@@ -9,11 +9,6 @@
           "course-link": "#"
         },
         {
-          "course-icon": "./assests/icons/cpp-live-course-logo.svg",
-          "course-name": "C++ & Data Structures Live",
-          "course-link": "#"
-        },
-        {
           "course-icon": "./assests/icons/java-ds-logo.png",
           "course-name": "Java & Data Structures",
           "course-link": "#"

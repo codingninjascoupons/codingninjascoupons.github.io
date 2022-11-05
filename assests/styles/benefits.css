@@ -2,7 +2,7 @@
 .benefits{
     font-family: "Inter",sans-serif;
     text-align: center;
-    padding-top: 60px;
+    padding-top: var(--nav-padding);
     display: flex;
     flex-direction: column;
     gap:1.5em;

@@ -31,9 +31,18 @@
     <link rel="stylesheet" href="./assests/styles/how-to.css" />
     <link rel="stylesheet" href="./assests/styles/faq.css" />
     <link rel="stylesheet" href="./assests/styles/footer.css" />
+    <link rel="stylesheet" href="./assests/styles/proofs.css" />
 
     <!-- Javascript Files -->
     <script src="./assests/scripts/script.js" defer></script>
+
+    <script src="./assests/scripts/slider.js" defer></script>
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
   </head>
   <body>
     <!-- Nav bar starts -->
@@ -97,7 +106,7 @@
     <!-- Landing Display Ends -->
 
     <!-- Scholarship section Starts -->
-    <div id="scholarship">
+    <div class="scholarship" id="scholarship">
       <div class="cnsat-img">
         <img src="./assests/images/cnsat.png" alt="cnsat logo" />
       </div>
@@ -106,6 +115,7 @@
         <span> UPTO 100% Scholarship </span>
         on any course by Coding Ninjas
       </div>
+      <a href="#" class="reg-now">Register Now For FREE</a>
       <div class="info">
         <div class="brackets">
           <p>Scholarship Brackets</p>
@@ -132,6 +142,35 @@
       <a href="#" target="_blank" class="more-details-btn">For More Details</a>
     </div>
     <!-- Scholarship section Ends -->
+
+    <!-- Proofs Section Starts -->
+    <div class="proofs" id="proofs">
+      <h2>Some <span>Proofs</span> Of Discounts</h2>
+      <p>
+        These are the snapshots of checkout of some courses, how price differs
+        after applying discount coupon and early birds discount.
+      </p>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./assests/images/proofs/proof1.png" alt="Proof Images" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assests/images/proofs/proof2.png" alt="Proof Images" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assests/images/proofs/proof3.png" alt="Proof Images" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./assests/images/proofs/proof4.png" alt="Proof Images" />
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <!-- Proofs Section Ends -->
 
     <!-- Course Section Starts -->
     <div id="courses" class="courses">
@@ -509,4 +548,7 @@
     </footer>
     <!-- Footer Ends -->
   </body>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 </html>

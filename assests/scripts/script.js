@@ -7,6 +7,8 @@ const offerings = document.querySelector(".offerings");
 const features = document.querySelector(".features-cards");
 const benefits = document.querySelector(".benefits-cards");
 const questions = document.querySelectorAll(".question");
+const copy = document.querySelector(".fa-copy");
+
 // Event Listeners
 
 hamBtn.onclick = function () {
@@ -32,6 +34,17 @@ questions.forEach((question) => {
   );
 });
 
+copy.onclick = () => {
+  const text = document.querySelector(".copy-code-btn").innerText;
+  navigator.clipboard.writeText(text).then(
+    function () {
+      alert("Succefully copied to clipboard");
+    },
+    function (err) {
+      alert(" Could not copy text: ", err);
+    }
+  );
+};
 //  Handy Functions
 
 function toggleUnderline(item) {

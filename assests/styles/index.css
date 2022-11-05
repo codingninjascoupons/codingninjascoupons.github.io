@@ -5,6 +5,7 @@
 }
 :root{
     --theme-font-color:#FA8700;
+    --nav-padding: 70px;
 }
 a{
     text-decoration: none;

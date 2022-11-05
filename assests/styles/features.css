@@ -2,7 +2,7 @@
 .features{
     background-color: #F7F8FC;
     text-align: center;
-    padding-top: 60px;
+    padding-top: var(--nav-padding);
     font-family: 'Inter', sans-serif;
     background-image: url('../images/bg-imgs/features-bg.svg');
     background-repeat: no-repeat;
