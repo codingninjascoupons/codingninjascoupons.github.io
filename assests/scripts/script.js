@@ -63,8 +63,25 @@ function toggleOpen(item) {
     }
   });
 }
+function updateReferralCount() {
+  fetch("https://api.codingninjas.com/api/v2/get_campus_ambassador_leaderboard")
+    .then((response) => response.json())
+    .then((data) => {
+      const list = data["data"]["referral_user_list"];
 
+      const hemanth_data = list.filter((el) => {
+        return el["id"] == 946261;
+      });
+      if (hemanth_data) {
+        const count = hemanth_data[0]["count"];
+        document.querySelector(".referralCount").innerHTML = count;
+        document.querySelector(".money_saved").innerHTML =
+          "Rs " + (count * 1575).toLocaleString("en-IN");
+      }
+    });
+}
 window.onload = function () {
+  updateReferralCount();
   fetch("./assests/data/courses.json")
     .then((response) => {
       return response.json();

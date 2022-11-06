@@ -6,42 +6,42 @@
         {
           "course-icon": "./assests/icons/cpp-ds-logo.png",
           "course-name": "C++ & Data Structures",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/c-plus-plus-data-structures-and-algorithms?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/java-ds-logo.png",
           "course-name": "Java & Data Structures",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/java-data-structures-and-algorithms?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/interview-logo.png",
           "course-name": "Interview Preparations",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/product-based-company-course?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/cp-logo.png",
           "course-name": "Competitive Programming",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/competitive-programming?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/python-logo.png",
           "course-name": "Python & Data Structures",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/python-data-structures-and-algorithms?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/aptitude-logo.png",
           "course-name": "Aptitude Preparation",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/aptitude-preparation?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/os-new-logo.svg",
           "course-name": "Operating systems",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/operating-systems?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/system-design.svg",
           "course-name": "System Design",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/system-design?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/dbms-logo.svg",
@@ -57,7 +57,7 @@
         {
           "course-icon": "./assests/icons/ml-logo.png",
           "course-name": "Machine Learnig",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/machine-learning?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/react-logo.svg",
