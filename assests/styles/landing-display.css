@@ -59,7 +59,14 @@
     border-radius: 50px;
     box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
     cursor: pointer;
+    transition: 0.15s;
 }
+.landing-display .display-text .btns .get-now-btn:hover{
+    background-color: #ffac4e;
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+    transition: 0.15s;
+}
+
 .landing-display .display-text .btns .copy-code-btn{
     display: flex;
     align-items: center;
@@ -71,6 +78,14 @@
 .landing-display .display-text .btns .copy-code-btn .fa-copy{
     font-size: 1.2em;
     cursor:pointer;
+}
+.landing-display .display-text .btns .copy-code-btn .fa-copy:hover{
+    transform: scale(1.1);
+    transition: 0.5s cubic-bezier(.17,1.86,.6,-0.51);
+}
+.landing-display .display-text .btns .copy-code-btn .fa-copy:active{
+    transform: scale(0.9);
+    transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 @media screen and (max-width: 1024px) {

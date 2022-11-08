@@ -47,6 +47,12 @@
     border-bottom: 4px solid var(--theme-font-color);
     border-radius: 10px;
     padding: 10px 3px;
+    transition: 0.6s;
+}
+.courses .course-container .course-card:hover{
+    box-shadow: 0px 4px 25px rgba(0,0,0,0.15);
+    transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+
 }
 .courses .course-container .course-card .course-icon img{
     width: 50px;

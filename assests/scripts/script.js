@@ -99,6 +99,7 @@ window.onload = function () {
         course["courses"].forEach((c) => {
           const card = document.createElement("a");
           card.href = c["course-link"];
+          card.target = "_blank";
           card.classList.add("course-card");
           card.innerHTML = `<div class="course-icon">
               <img
@@ -121,6 +122,7 @@ window.onload = function () {
     .then((data) => {
       data.forEach((c) => {
         const pcard = document.createElement("a");
+        pcard.target = "_blank";
         pcard.href = c["course-link"];
         pcard.classList.add("course-card");
         pcard.innerHTML = `
