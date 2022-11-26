@@ -1,7 +1,7 @@
 [
     {
       "course-title": "Foundation Algorithmic & Adcanced Courses",
-      "course-desc": "Foundation courses are designed such that no prerequisites are required. Data Structures(DS) and Algorithms(algo.) parts build on the basics to give you a solid programming foundation. Competitive is where you start to push the boundaries!",
+      "course-desc": "Course prerequisites are not required for foundation courses.In Data Structures(DS) and Algorithms(algo) you will learn the basics that are necessary to build a solid programming foundation.In order to be competitive, you have to push yourself to your limits!",
       "courses": [
         {
           "course-icon": "./assests/icons/cpp-ds-logo.png",
@@ -52,7 +52,7 @@
     },
     {
       "course-title": "Data & Development",
-      "course-desc": "Data courses dwell in the state of the art algorithms and require good knowledge of programming fundamentals. Web development courses use modern JavaScript to build powerful and fast applications from the ground up. No prior development experience needed.",
+      "course-desc": "A good understanding of programming fundamentals is required in data courses since they deal with advanced algorithms.A Web development course builds powerful and fast applications from the ground up using modern JavaScript.It is not necessary to have prior development experience.",
       "courses": [
         {
           "course-icon": "./assests/icons/ml-logo.png",
@@ -88,7 +88,7 @@
     },
     {
       "course-title": "Goal Based Courses",
-      "course-desc": "Courses Ideal for students preparing for placements/Internships and working professionals with 2+ years of experience. This courses prepares student for placement interviews.",
+      "course-desc": "Designed for working professionals with more than two years' experience looking to prepare for placements or internships.The purpose of this course is to prepare students for placement interviews.",
       "courses": [
         {
           "course-icon": "./assests/icons/service-based-companies-course-logo.png",
@@ -109,7 +109,7 @@
     },
     {
       "course-title": "Career Track",
-      "course-desc": "These are courses that take you from zero to hero. Each track is designed specifically to cater to a particular goal you can choose and covers everything you need to learn and assumes no prior knowledge.",
+      "course-desc": "These are courses that will help you transform from zero to hero.All tracks cover everything you need to learn and assume no prior knowledge, and they are designed specifically to cater to a particular goal you can select.",
       "courses": [
         {
           "course-icon": "./assests/icons/career-track-cp-logo.png",

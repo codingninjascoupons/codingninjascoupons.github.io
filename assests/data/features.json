@@ -2,61 +2,56 @@
     {
       "icon": "./assests/icons/feautes-small-1.svg",
       "title": "Free Trials",
-      "desc": "All Courses are provided with free trials of few topics, you can access free contents of all courses and check its way of teaching."
+      "desc": "There are free trials available for every course, so you can check out the content and teaching style before registering."
     },
     {
       "icon": "./assests/icons/feautes-small-2.svg",
       "title": "Doubt Support",
-      "desc": "You can ask your doubts to Teaching Assistance by simply raising your doubt, All TA's are very friendly and helpful."
+      "desc": "Teaching Assistance is a very friendly and helpful service, so you can ask all your doubts by simply raising them."
     },
     {
       "icon": "./assests/icons/feautes-small-3.svg",
       "title": "Refund Policy",
-      "desc": "You can simply contact the authorities and they will give you a full refund within 7 days.In case you decide to cancel Coding Ninjas course."
+      "desc": "It's simple to cancel Coding Ninjas course. The authorities will refund you a full amount within 7 days."
     },
     {
       "icon": "./assests/icons/feautes-small-4.svg",
       "title": "Placements",
-      "desc": "Coding Ninjas Provides opportunities for jobs and internships for those who have completed the course from them."
+      "desc": "Once a student has completed a Coding Ninjas course, they can apply for jobs and internships."
     },
     {
       "icon": "./assests/icons/feautes-small-5.svg",
       "title": "Course Pause",
-      "desc": "Due to its flexibility, you can choose to put your learning to a halt -- probably due to external activities -- and return at your convenience."
+      "desc": "The flexibility of the platform allows you to leave your learning for a limited period and return at a later date despite external activities."
     },
     {
       "icon": "./assests/icons/feautes-small-6.svg",
       "title": "Certificate",
-      "desc": "Coding Ninjas also provides Certificates of Completion after 80% and Certification of Excellence after 90% course."
+      "desc": "A certificate of completion is provided after the 80% and a certificate of excellence is provided after the 90% course at Coding Ninjas."
     },
     {
       "icon": "./assests/icons/feautes-small-7.svg",
       "title": "Excellent Instructors",
-      "desc": "Each course is designed starting from most basic to more advance level. So, they students of all level can get maximum benefit."
+      "desc": "From the most basic level to the most advanced, each course is designed accordingly."
     },
     {
       "icon": "./assests/icons/feautes-small-8.svg",
       "title": "Course Curriculum",
-      "desc": "Each course is designed starting from most basic to more advance level. So, they students of all level can get maximum benefit."
+      "desc": "The courses are designed in a range of levels, starting from the simplest to the most advanced."
     },
     {
       "icon": "./assests/icons/feautes-small-9.svg",
       "title": "EMI Payment",
-      "desc": "In case you can't pay full amount at the starting of course, you can pay via emi option available in the payment page."
-    },
-    {
-      "icon": "./assests/icons/feautes-small-10.svg",
-      "title": "Codezen",
-      "desc": "Codezen is the Coding Ninjas own coding platform where you can find all sorts of problems and complete with peers."
+      "desc": "If you are unable to pay the full amount at the beginning of a course, you will be able to use the EMI payment option on the payment page."
     },
     {
       "icon": "./assests/icons/feautes-small-11.svg",
       "title": "Lots Of Practice",
-      "desc": "In the course after each lecture, practice problems of all level are given with hint videos so that practical side of it is also known."
+      "desc": "Every lecture is followed by a practical problem of any level with a video hint so students will be able to understand both the theoretical and practical aspects."
     },
     {
       "icon": "./assests/icons/feautes-small-12.svg",
       "title": "Practice Tests",
-      "desc": "Practice Tests are conducted after few topics to check your level. Sometimes monthly webniars are also conducted."
+      "desc": "The level of your knowledge is checked through practice tests after each topic."
     }
   ]

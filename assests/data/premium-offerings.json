@@ -2,21 +2,21 @@
     {
         "icon":"./assests/icons/003-job-search.png",
         "title":"Best Job Opportunities",
-        "desc":"Get access to curated jobs via Coding Ninjas Placement cell and Premium Hirist account"
+        "desc":"Coding Ninjas Placement cell & Premium Hirst account give you access to curated jobs"
     },
     {
         "icon":"./assests/icons/004-career-choice.png",
         "title":"Career counselling sessions",
-        "desc":"Focusing on Career Guidance, Projects, creating a good profile and much more"
+        "desc":"Providing career guidance, project management, creating a good profile, etc."
     },
     {
         "icon":"./assests/icons/005-interview.png",
         "title":"Mock interviews",
-        "desc":"With Industry Experts from Top Product Companies like Amazon, Adobe focusing on tech and interpersonal skills"
+        "desc":"Focused on both technical and interpersonal skills with expert industry professionals from Amazon, Adobe, etc."
     },
     {
         "icon":"./assests/icons/006-workshop.png",
         "title":"Profile building workshops",
-        "desc":"Helping you build a great resume and a great profile on GitHub, Codechef, LinkedIn and more"
+        "desc":"Our service helps you build an impressive resume, GitHub , Codechef profile, LinkedIn and more"
     }
 ]

@@ -3,30 +3,30 @@
         "num":1,
         "icon":"./assests/icons/benefits1.svg",
         "title":"Gift Package",
-        "desc":"This ought to be a secret, but Coding Ninjas offers you T-Shirts, Notebook, Wildcraft Bagpack, Laptop stickers, and other little things that would aid your learning here with home delivery."
+        "desc":"Coding Ninjas has a variety of T-Shirts, Notepads, Wildcraft Bags, Laptop Stickers, and other little things to aid your learning here with home delivery."
     },
     {
         "num":2,
         "icon":"./assests/icons/benefits2.svg",
         "title":"Teaching Assistant Internship (TAship)",
-        "desc":"After completing 80% of the course, you can apply for TAship. Duration of TAship will be 4 months and has stipend upto ₹30,000."
+        "desc":"In order to apply for TAship, you must complete 80% of the course.The TAship will be for 4 months with a stipend of up to $30,000 per month."
     },
     {
         "num":3,
         "icon":"./assests/icons/benefits3.svg",
         "title":"More Discounts On Courses",
-        "desc":"As a student who already applied this coupon and passed through a course, you're entitled to a 10% Discount on your next course."
+        "desc":"You are eligible for a 10% discount on your next course if you have already applied this coupon and completed a course."
     },
     {
         "num":4,
         "icon":"./assests/icons/benefits4.svg",
         "title":"Premium Hirist Account",
-        "desc":"Get 6 months Premium account on Hirist. Showcase your skills on Hirist, And then Apply for Internships and Jobs."
+        "desc":"Get 6 months of Premium Hirist membership for free.Apply for internships and jobs on Hirist after showcasing your skills."
     },
     {
         "num":5,
         "icon":"./assests/icons/benefits5.svg",
         "title":"Become Campus Ninja's",
-        "desc":"Organize hackathons, Assist Coding Ninjas Team to organize Talks/Sessions , Introduce Coding Ninjas to your college and get exciting prizes."
+        "desc":"Take part in hackathons, assist Coding Ninjas in organizing talks and sessions, and increase your campus's awareness of Coding Ninjas."
     }
 ]
