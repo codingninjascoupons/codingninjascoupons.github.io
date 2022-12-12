@@ -23,14 +23,22 @@
     font-weight: 900;
     font-size: 55px;
 }
+.landing-display .display-text .larger-text :nth-child(3){
+    font-size: 45px;
+}
 .landing-display .display-text .larger-text span{
-    font-size: 70px;
+    font-size: 58px;
+    color: #f9481c;
 }
 .text-coupon-code{
     font-size: 20px;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     text-shadow: 0px 0px 4px rgba(0,0,0,0.25);
+    background:linear-gradient(92.12deg,#fa9e15 .88%,#f6430f 99.43%);
+    width: fit-content;
+    padding: 15px;
+    border-radius: 7px;
 }
 .text-coupon-code span{
     font-weight: 800;
@@ -48,8 +56,12 @@
     font-size: 15px;
     font-weight: 900;
 }
+
 .landing-display .display-img{
     width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .landing-display .display-img img{
     width: 100%;
@@ -62,18 +74,24 @@
     font-size: 1.1em;
     font-weight: 700;
 }
-
+.landing-display .display-img .cn-logo{
+    height: 80px;
+    width: auto;
+    position:relative;
+    top: 50px;
+    border-radius: 7px;
+}
 .landing-display .display-text .btns .get-now-btn{
     background-color: #FA8700;
     padding: 10px 25px;
     border-radius: 50px;
-    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    /* box-shadow: 0px 2px 4px rgba(0,0,0,0.25); */
     cursor: pointer;
-    transition: 0.15s;
+    transition: 0.3s;
 }
 .landing-display .display-text .btns .get-now-btn:hover{
-    background-color: #ffac4e;
-    box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+    background-color: #273c75;
+    box-shadow: 0px 0px 15px 4px rgba(74, 74, 74, 0.56);
     transition: 0.15s;
 }
 
@@ -84,6 +102,13 @@
     border: 1.5px solid ;
     padding: 10px 10px;
     border-radius: 5px;
+    background-color: #273c75;
+    transition: 0.3s;
+}
+.landing-display .display-text .btns .copy-code-btn:hover{
+    background-color: #334e97;
+    box-shadow: 0px 0px 15px 1px rgba(56, 55, 55, 0.25);
+    transition: 0.1s;
 }
 .landing-display .display-text .btns .copy-code-btn .fa-copy{
     font-size: 1.2em;
@@ -97,6 +122,27 @@
     transform: scale(0.9);
     transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+.landing-display .whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 7px;
+    margin: 25px 0 10px 0;
+    background-color: #25c764;
+    padding: 7px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.landing-display .whatsapp:hover{
+    background-color: #2fe374;
+    box-shadow: 0px 0px 10px 1px rgba(56, 55, 55, 0.25);
+
+}
+.landing-display .whatsapp img{
+    width: 30px;
+}
+
 
 @media screen and (max-width: 1024px) {
     .landing-display .display-text{

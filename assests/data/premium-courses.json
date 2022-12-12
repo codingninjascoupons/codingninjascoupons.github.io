@@ -1,32 +1,28 @@
 [
-    {
-        "course-icon": "./assests/icons/android-logo.png",
-        "course-name": "Android App Development",
-        "course-link": "#"
-      },
+
       {
         "course-icon": "./assests/icons/ml-logo.png",
         "course-name": "Machine Learnig",
-        "course-link": "#"
+        "course-link": "https://www.codingninjas.com/courses/machine-learning?referralCode=WVGAN"
       },
       {
         "course-icon": "./assests/icons/data-science-logo.png",
         "course-name": "Data Science",
-        "course-link": "#"
+        "course-link": "https://www.codingninjas.com/courses/data-science?referralCode=WVGAN"
       },
       {
         "course-icon": "./assests/icons/web-logo.png",
         "course-name": "Full Stack Web Development",
-        "course-link": "#"
+        "course-link": "https://www.codingninjas.com/courses/full-stack-web-dev-mern?referralCode=WVGAN"
       },
       {
         "course-icon": "./assests/icons/aptitude-logo.png",
         "course-name": "Data Structures & Algorithms",
-        "course-link": "#"
+        "course-link": "https://www.codingninjas.com/courses/c-plus-plus-data-structures-and-algorithms?referralCode=WVGAN"
       },
       {
         "course-icon": "./assests/icons/cp-logo.png",
         "course-name": "Competitive Programming",
-        "course-link": "#"
+        "course-link": "https://www.codingninjas.com/courses/competitive-programming?referralCode=WVGAN"
       }
   ]

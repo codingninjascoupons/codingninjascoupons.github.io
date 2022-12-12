@@ -46,7 +46,7 @@
         {
           "course-icon": "./assests/icons/dbms-logo.svg",
           "course-name": "Database Management",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/?referralCode=WVGAN"
         }
       ]
     },
@@ -62,27 +62,22 @@
         {
           "course-icon": "./assests/icons/react-logo.svg",
           "course-name": "Front End(React)",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/web-dev-react?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/mern-logo.svg",
           "course-name": "Web Dev(Full Stack)",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/full-stack-web-dev-mern?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/data-science-logo.png",
           "course-name": "Data Science",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/data-science?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/Data-Analytics-Course-logo.png",
           "course-name": "Data Analytics",
-          "course-link": "#"
-        },
-        {
-          "course-icon": "./assests/icons/android-logo.png",
-          "course-name": "Android (Kotlin)",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/data-analytics?referralCode=WVGAN"
         }
       ]
     },
@@ -93,17 +88,17 @@
         {
           "course-icon": "./assests/icons/service-based-companies-course-logo.png",
           "course-name": "Service Based Interview Preparations",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/product-based-company-course?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/switch-from-service-to-product-course-logo.svg",
           "course-name": "Switch from Service to Product",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/product-based-company-course?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/product-based-companies-course-logo.svg",
           "course-name": "Product Companies Interview Preparations",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/product-based-company-course?referralCode=WVGAN"
         }
       ]
     },
@@ -114,27 +109,22 @@
         {
           "course-icon": "./assests/icons/career-track-cp-logo.png",
           "course-name": "Competitive Programmer",
-          "course-link": "#"
-        },
-        {
-          "course-icon": "./assests/icons/career-track-android-logo.png",
-          "course-name": "Android Programmer",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/competitive-programming?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/career-track-web-logo.png",
           "course-name": "Web Development",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/full-stack-web-dev-mern?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/career-track-data-science-logo.png",
           "course-name": "Data Scientist",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/data-science?referralCode=WVGAN"
         },
         {
           "course-icon": "./assests/icons/career-track-ml-logo.png",
           "course-name": "Machine Learning",
-          "course-link": "#"
+          "course-link": "https://www.codingninjas.com/courses/machine-learning?referralCode=WVGAN"
         }
       ]
     }
