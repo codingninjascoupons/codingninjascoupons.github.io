@@ -204,3 +204,9 @@ window.onload = function () {
       });
     });
 };
+
+// Update Copy Right year automatically
+
+let copyRightYear = document.querySelector(".copy-right-year");
+
+copyRightYear.innerText = new Date().getFullYear();
