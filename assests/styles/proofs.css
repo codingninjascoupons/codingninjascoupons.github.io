@@ -15,6 +15,10 @@
     color:var(--theme-font-color);
 }
 
+.proofs p{
+  margin-bottom:25px;
+}
+
 /* Slider Stylings */
 
 .swiper {
@@ -27,16 +31,6 @@
     font-size: 18px;
 
     /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    align-items: center;
     height: 400px !important;
   }
 
@@ -45,6 +39,7 @@
     display: block;
     height: 80%;
     object-fit: cover;
+    margin: auto;
   }
 
   @media screen and (max-width: 600px) {

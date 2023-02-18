@@ -1,0 +1,36 @@
+.yt-vedio{
+    width: 100%;
+    padding: 25px 0px 70px 0px;
+    font-family: "Inter",sans-serif;
+    /* border: 2px solid; */
+}
+.yt-vedio h2{
+    color:rgb(108, 108, 110);
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 35px;
+    margin: 15px 0px 30px 0px;
+  }
+  
+.yt-vedio h2 span{
+      color:var(--theme-font-color);
+  }
+
+.vedio-container {
+    width: 50%;
+    margin: auto;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 7px;
+}
+
+.vedio-container iframe{
+    border-radius: 7px;
+    width: 100%
+}
+
+@media screen and (max-width: 700px){
+    .vedio-container{
+        width: 90%;
+    }
+}
