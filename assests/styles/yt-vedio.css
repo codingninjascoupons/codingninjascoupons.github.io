@@ -3,6 +3,7 @@
     padding: 25px 0px 70px 0px;
     font-family: "Inter",sans-serif;
     /* border: 2px solid; */
+    background-color: #cad3d88c;
 }
 .yt-vedio h2{
     color:rgb(108, 108, 110);
@@ -19,7 +20,7 @@
 .vedio-container {
     width: 50%;
     margin: auto;
-    background-color: aliceblue;
+    background-color: white;
     padding: 20px;
     border-radius: 7px;
 }
